@@ -1,0 +1,11 @@
+
+module userInput(clk, Reset, A, B);
+
+endmodule
+
+
+
+module userInput_testbench();
+
+endmodule
+

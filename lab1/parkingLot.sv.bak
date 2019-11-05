@@ -1,0 +1,13 @@
+// Charles Tung Fang
+// 10/05/19
+// EE 371 Lab 1 Parking Lot Occupancy Counter
+// parkingLot 
+
+module parkingLot(clk, Reset, A, B, HEXs);
+	input logic clk, Reset, A, B;
+	output logic [5:0] HEXs;
+endmodule
+
+module parkingLot_testbench();
+
+endmodule

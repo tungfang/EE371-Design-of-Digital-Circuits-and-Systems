@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at parkingLot.sv(56): always construct contains both blocking and non-blocking assignments File: C:/Users/concon/Desktop/lab1/parkingLot.sv Line: 56

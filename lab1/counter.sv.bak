@@ -1,0 +1,14 @@
+// Charles Tung Fang
+// 10/05/19
+// EE 371 Lab 1 Parking Lot Occupancy Counter
+// counter uses the enter and exit status to count how many
+// cars are still in the parking lot
+
+module counter(clk, Reset, status, );
+	input logic clk, Reset
+
+endmodule
+
+module counter_testbench();
+
+endmodule

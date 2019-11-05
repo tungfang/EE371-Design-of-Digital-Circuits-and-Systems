@@ -1,0 +1,199 @@
+# Reading C:/intelFPGA/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/tungfang/Desktop/lab1 {C:/Users/tungfang/Desktop/lab1/DE1_SoC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:02 on Oct 07,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tungfang/Desktop/lab1" C:/Users/tungfang/Desktop/lab1/DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 17:01:03 on Oct 07,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tungfang/Desktop/lab1 {C:/Users/tungfang/Desktop/lab1/userInput.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:03 on Oct 07,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tungfang/Desktop/lab1" C:/Users/tungfang/Desktop/lab1/userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput
+# 	userInput_testbench
+# End time: 17:01:03 on Oct 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tungfang/Desktop/lab1 {C:/Users/tungfang/Desktop/lab1/metastability.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:03 on Oct 07,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tungfang/Desktop/lab1" C:/Users/tungfang/Desktop/lab1/metastability.sv 
+# -- Compiling module metastability
+# -- Compiling module metastability_testbench
+# 
+# Top level modules:
+# 	metastability_testbench
+# End time: 17:01:03 on Oct 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tungfang/Desktop/lab1 {C:/Users/tungfang/Desktop/lab1/keyPress.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:03 on Oct 07,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tungfang/Desktop/lab1" C:/Users/tungfang/Desktop/lab1/keyPress.sv 
+# -- Compiling module keyPress
+# -- Compiling module keyPress_testbench
+# 
+# Top level modules:
+# 	keyPress_testbench
+# End time: 17:01:03 on Oct 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tungfang/Desktop/lab1 {C:/Users/tungfang/Desktop/lab1/parkingLot.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:03 on Oct 07,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tungfang/Desktop/lab1" C:/Users/tungfang/Desktop/lab1/parkingLot.sv 
+# -- Compiling module parkingLot
+# -- Compiling module parkingLot_testbench
+# 
+# Top level modules:
+# 	parkingLot_testbench
+# End time: 17:01:03 on Oct 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tungfang/Desktop/lab1 {C:/Users/tungfang/Desktop/lab1/displayCount.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:03 on Oct 07,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tungfang/Desktop/lab1" C:/Users/tungfang/Desktop/lab1/displayCount.sv 
+# -- Compiling module displayCount
+# 
+# Top level modules:
+# 	displayCount
+# End time: 17:01:03 on Oct 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tungfang/Desktop/lab1 {C:/Users/tungfang/Desktop/lab1/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:03 on Oct 07,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tungfang/Desktop/lab1" C:/Users/tungfang/Desktop/lab1/counter.sv 
+# -- Compiling module counter
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# End time: 17:01:04 on Oct 07,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/DE1_SoC.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:08:10 on Oct 07,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 17:08:11 on Oct 07,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/DE1_SOC_golden_top.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:08:12 on Oct 07,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/DE1_SOC_golden_top.v 
+# -- Compiling module DE1_SOC_golden_top
+# 
+# Top level modules:
+# 	DE1_SOC_golden_top
+# End time: 17:08:12 on Oct 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/displayCount.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:08:13 on Oct 07,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/displayCount.sv 
+# -- Compiling module displayCount
+# 
+# Top level modules:
+# 	displayCount
+# End time: 17:08:13 on Oct 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/keyPress.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:08:14 on Oct 07,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/keyPress.sv 
+# -- Compiling module keyPress
+# -- Compiling module keyPress_testbench
+# 
+# Top level modules:
+# 	keyPress_testbench
+# End time: 17:08:14 on Oct 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/metastability.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:08:15 on Oct 07,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/metastability.sv 
+# -- Compiling module metastability
+# -- Compiling module metastability_testbench
+# 
+# Top level modules:
+# 	metastability_testbench
+# End time: 17:08:15 on Oct 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/parkingLot.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:08:15 on Oct 07,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/parkingLot.sv 
+# -- Compiling module parkingLot
+# -- Compiling module parkingLot_testbench
+# 
+# Top level modules:
+# 	parkingLot_testbench
+# End time: 17:08:15 on Oct 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/userInput.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:08:17 on Oct 07,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput
+# 	userInput_testbench
+# End time: 17:08:17 on Oct 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/userInput.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:08:18 on Oct 07,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab1/userInput.sv 
+# -- Compiling module userInput
+# -- Compiling module userInput_testbench
+# 
+# Top level modules:
+# 	userInput
+# 	userInput_testbench
+# End time: 17:08:18 on Oct 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.parkingLot_testbench
+# vsim work.parkingLot_testbench 
+# Start time: 17:08:31 on Oct 07,2019
+# Loading sv_std.std
+# Loading work.parkingLot_testbench
+# Loading work.parkingLot
+run -all
+# ** Note: $stop    : C:/Users/tungfang/Desktop/lab1/parkingLot.sv(103)
+#    Time: 2150 ps  Iteration: 1  Instance: /parkingLot_testbench
+# Break in Module parkingLot_testbench at C:/Users/tungfang/Desktop/lab1/parkingLot.sv line 103
+add wave -position end sim:/parkingLot_testbench/dut/*
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/tungfang/Desktop/lab1/parkingLot.sv(103)
+#    Time: 2150 ps  Iteration: 1  Instance: /parkingLot_testbench
+# Break in Module parkingLot_testbench at C:/Users/tungfang/Desktop/lab1/parkingLot.sv line 103
+# End time: 18:02:09 on Oct 07,2019, Elapsed time: 0:53:38
+# Errors: 0, Warnings: 0

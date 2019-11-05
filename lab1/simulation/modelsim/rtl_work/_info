@@ -1,0 +1,355 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/tungfang/Desktop/lab1/simulation/modelsim
+vcounter
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1570492864
+!i10b 1
+!s100 fY;oBzVYN<96aNTK2P:TY2
+ICPQ7QV93`?jP89>fgYc2l1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 counter_sv_unit
+S1
+R0
+Z5 w1570483036
+Z6 8C:/Users/tungfang/Desktop/lab1/counter.sv
+Z7 FC:/Users/tungfang/Desktop/lab1/counter.sv
+L0 7
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1570492863.000000
+Z10 !s107 C:/Users/tungfang/Desktop/lab1/counter.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tungfang/Desktop/lab1|C:/Users/tungfang/Desktop/lab1/counter.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/tungfang/Desktop/lab1
+Z14 tCvgOpt 0
+vcounter_testbench
+R1
+R2
+!i10b 1
+!s100 A1ajkFYKfc@z=O4=C0Pfj0
+IH;oS2S5Yhl7]j6NMXRZbm2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 78
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vDE1_SoC
+R1
+Z15 !s110 1570493291
+!i10b 1
+!s100 SdB:7z>I5Y4BDPm8lWUao3
+IYI_Ol8W[GKjZ1fXRFOVol3
+R3
+Z16 !s105 DE1_SoC_sv_unit
+S1
+R0
+Z17 w1570492730
+Z18 8C:/Users/tungfang/Desktop/lab1/DE1_SoC.sv
+Z19 FC:/Users/tungfang/Desktop/lab1/DE1_SoC.sv
+L0 9
+R8
+r1
+!s85 0
+31
+Z20 !s108 1570493290.000000
+Z21 !s107 C:/Users/tungfang/Desktop/lab1/DE1_SoC.sv|
+Z22 !s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab1/DE1_SoC.sv|
+!i113 1
+Z23 o-work work
+R14
+n@d@e1_@so@c
+vDE1_SOC_golden_top
+!s110 1570493292
+!i10b 1
+!s100 bXPJWP]c@>Rf0:T705;V:1
+I@Ri9c4Wh<CehB5]Qk;N0[3
+R3
+R0
+w1450388884
+8C:/Users/tungfang/Desktop/lab1/DE1_SOC_golden_top.v
+FC:/Users/tungfang/Desktop/lab1/DE1_SOC_golden_top.v
+L0 54
+R8
+r1
+!s85 0
+31
+!s108 1570493292.000000
+!s107 C:/Users/tungfang/Desktop/lab1/DE1_SOC_golden_top.v|
+!s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab1/DE1_SOC_golden_top.v|
+!i113 1
+R23
+R14
+n@d@e1_@s@o@c_golden_top
+vDE1_SoC_testbench
+R1
+R15
+!i10b 1
+!s100 eYOC2Q;S`A8LE[^][RMQ[2
+IhHOUe0Yk=0ZU_F?V4zCz31
+R3
+R16
+S1
+R0
+R17
+R18
+R19
+L0 31
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R23
+R14
+n@d@e1_@so@c_testbench
+vdisplayCount
+R1
+!s110 1570493293
+!i10b 1
+!s100 `;cJJDUP5D2oF1YW6L0=V0
+IeQ<N@h6mH8E6_kV8<<>EU3
+R3
+!s105 displayCount_sv_unit
+S1
+R0
+w1570481402
+8C:/Users/tungfang/Desktop/lab1/displayCount.sv
+FC:/Users/tungfang/Desktop/lab1/displayCount.sv
+L0 7
+R8
+r1
+!s85 0
+31
+!s108 1570493293.000000
+!s107 C:/Users/tungfang/Desktop/lab1/displayCount.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab1/displayCount.sv|
+!i113 1
+R23
+R14
+ndisplay@count
+vkeyPress
+R1
+Z24 !s110 1570493294
+!i10b 1
+!s100 g>LC[>7J_lZ3Y6b]2]<6K3
+IeD6V`K1M6kWC_6BEGc?O]1
+R3
+Z25 !s105 keyPress_sv_unit
+S1
+R0
+Z26 w1570320126
+Z27 8C:/Users/tungfang/Desktop/lab1/keyPress.sv
+Z28 FC:/Users/tungfang/Desktop/lab1/keyPress.sv
+L0 7
+R8
+r1
+!s85 0
+31
+Z29 !s108 1570493294.000000
+Z30 !s107 C:/Users/tungfang/Desktop/lab1/keyPress.sv|
+Z31 !s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab1/keyPress.sv|
+!i113 1
+R23
+R14
+nkey@press
+vkeyPress_testbench
+R1
+R24
+!i10b 1
+!s100 HZlWVLKM8@nMWT>dZMZmC1
+I[RfFZ:hNZTKd_jdo>oAU^1
+R3
+R25
+S1
+R0
+R26
+R27
+R28
+L0 33
+R8
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 1
+R23
+R14
+nkey@press_testbench
+vmetastability
+R1
+Z32 !s110 1570493295
+!i10b 1
+!s100 [6XMQK_7X7OWzfBmIDgX;3
+I99[GE@^QN7^;HCMjCJaob3
+R3
+Z33 !s105 metastability_sv_unit
+S1
+R0
+Z34 w1570492465
+Z35 8C:/Users/tungfang/Desktop/lab1/metastability.sv
+Z36 FC:/Users/tungfang/Desktop/lab1/metastability.sv
+L0 6
+R8
+r1
+!s85 0
+31
+Z37 !s108 1570493295.000000
+Z38 !s107 C:/Users/tungfang/Desktop/lab1/metastability.sv|
+Z39 !s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab1/metastability.sv|
+!i113 1
+R23
+R14
+vmetastability_testbench
+R1
+R32
+!i10b 1
+!s100 aPWZnf@dMojZ0^M[d>:0E1
+IHEE@K2f]II1>B?`PIlfC91
+R3
+R33
+S1
+R0
+R34
+R35
+R36
+L0 25
+R8
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R23
+R14
+vparkingLot
+R1
+R32
+!i10b 1
+!s100 :FHATkeUQ[0LPJGUmHPP41
+IG>eek5_Zk>XJXE9>8g1CI1
+R3
+Z40 !s105 parkingLot_sv_unit
+S1
+R0
+Z41 w1570492830
+Z42 8C:/Users/tungfang/Desktop/lab1/parkingLot.sv
+Z43 FC:/Users/tungfang/Desktop/lab1/parkingLot.sv
+L0 8
+R8
+r1
+!s85 0
+31
+R37
+Z44 !s107 C:/Users/tungfang/Desktop/lab1/parkingLot.sv|
+Z45 !s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab1/parkingLot.sv|
+!i113 1
+R23
+R14
+nparking@lot
+vparkingLot_testbench
+R1
+R32
+!i10b 1
+!s100 KT]JhP@3Fm`UJ1:4A87aD1
+IIiVaLbH0=1T4?aIYR9[k32
+R3
+R40
+S1
+R0
+R41
+R42
+R43
+L0 66
+R8
+r1
+!s85 0
+31
+R37
+R44
+R45
+!i113 1
+R23
+R14
+nparking@lot_testbench
+vuserInput
+R1
+Z46 !s110 1570493298
+!i10b 1
+!s100 A`N8A8ij2PFBNC4YQMe7Q1
+I6]?hi^H5lEkocPXeADooB0
+R3
+Z47 !s105 userInput_sv_unit
+S1
+R0
+Z48 w1570413060
+Z49 8C:/Users/tungfang/Desktop/lab1/userInput.sv
+Z50 FC:/Users/tungfang/Desktop/lab1/userInput.sv
+L0 7
+R8
+r1
+!s85 0
+31
+Z51 !s108 1570493298.000000
+Z52 !s107 C:/Users/tungfang/Desktop/lab1/userInput.sv|
+Z53 !s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab1/userInput.sv|
+!i113 1
+R23
+R14
+nuser@input
+vuserInput_testbench
+R1
+R46
+!i10b 1
+!s100 GcQ0IUEoA?f>YR5BQB8Fn1
+ITS6RjV^o3MDU<SbVm7P5U1
+R3
+R47
+S1
+R0
+R48
+R49
+R50
+L0 21
+R8
+r1
+!s85 0
+31
+R51
+R52
+R53
+!i113 1
+R23
+R14
+nuser@input_testbench

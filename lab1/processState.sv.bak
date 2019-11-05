@@ -1,0 +1,12 @@
+// Charles Tung Fang
+// 10/05/19
+// EE 371 Lab 1 Parking Lot Occupancy Counter
+// processStates takes care of enter and exit signal to make sure they only valid for one 
+// clock cycle
+
+module processState(clk, Reset, enter, exit, newEn, newEx);
+	input logic clk, Reset, enter, exit;
+	output newEn, newEx;
+	
+	
+endmodule
