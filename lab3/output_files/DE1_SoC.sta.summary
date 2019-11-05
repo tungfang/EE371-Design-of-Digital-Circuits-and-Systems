@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -10.635
+TNS   : -6096.072
+
+Type  : Slow 1100mV 85C Model Setup 'clock_divider:cdiv|divided_clocks[18]'
+Slack : -10.378
+TNS   : -681.830
+
+Type  : Slow 1100mV 85C Model Hold 'clock_divider:cdiv|divided_clocks[18]'
+Slack : 0.278
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.636
+TNS   : -6113.577
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_divider:cdiv|divided_clocks[18]'
+Slack : -0.394
+TNS   : -41.076
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -10.433
+TNS   : -5953.312
+
+Type  : Slow 1100mV 0C Model Setup 'clock_divider:cdiv|divided_clocks[18]'
+Slack : -10.383
+TNS   : -685.649
+
+Type  : Slow 1100mV 0C Model Hold 'clock_divider:cdiv|divided_clocks[18]'
+Slack : 0.278
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.636
+TNS   : -6097.341
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_divider:cdiv|divided_clocks[18]'
+Slack : -0.394
+TNS   : -39.940
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -6.010
+TNS   : -3362.280
+
+Type  : Fast 1100mV 85C Model Setup 'clock_divider:cdiv|divided_clocks[18]'
+Slack : -5.558
+TNS   : -358.399
+
+Type  : Fast 1100mV 85C Model Hold 'clock_divider:cdiv|divided_clocks[18]'
+Slack : 0.095
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.636
+TNS   : -6153.851
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_divider:cdiv|divided_clocks[18]'
+Slack : -0.064
+TNS   : -0.668
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -5.318
+TNS   : -2915.258
+
+Type  : Fast 1100mV 0C Model Setup 'clock_divider:cdiv|divided_clocks[18]'
+Slack : -5.078
+TNS   : -328.522
+
+Type  : Fast 1100mV 0C Model Hold 'clock_divider:cdiv|divided_clocks[18]'
+Slack : 0.081
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.636
+TNS   : -6251.786
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_divider:cdiv|divided_clocks[18]'
+Slack : -0.017
+TNS   : -0.097
+
+------------------------------------------------------------

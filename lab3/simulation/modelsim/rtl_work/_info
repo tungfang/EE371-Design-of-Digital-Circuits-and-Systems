@@ -1,0 +1,160 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/371/lab3/simulation/modelsim
+vDE1_SoC
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1572334581
+!i10b 1
+!s100 jA>mI<c;Q9L]]Y5^KLcUj3
+I0i]mTPjBO]h[k]:Sc:bV:2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 DE1_SoC_sv_unit
+S1
+R0
+w1572334116
+8U:/371/lab3/DE1_SoC.sv
+FU:/371/lab3/DE1_SoC.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1572334580.000000
+!s107 U:/371/lab3/DE1_SoC.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/371/lab3|U:/371/lab3/DE1_SoC.sv|
+!i113 1
+Z4 o-sv -work work
+Z5 !s92 -sv -work work +incdir+U:/371/lab3
+Z6 tCvgOpt 0
+n@d@e1_@so@c
+vfor_loop
+R1
+Z7 !s110 1572335430
+!i10b 1
+!s100 =AEF70JH^DDUG_B]IXAd02
+I4IGk99XZQZO5kan4M63Nb0
+R2
+Z8 !s105 for_loop_sv_unit
+S1
+R0
+Z9 w1572335106
+Z10 8U:/371/lab3/for_loop.sv
+Z11 FU:/371/lab3/for_loop.sv
+L0 6
+R3
+r1
+!s85 0
+31
+Z12 !s108 1572335429.000000
+Z13 !s107 U:/371/lab3/for_loop.sv|
+Z14 !s90 -reportprogress|300|-work|work|U:/371/lab3/for_loop.sv|
+!i113 1
+Z15 o-work work
+R6
+vfor_loop_testbench
+R1
+R7
+!i10b 1
+!s100 ;UJf72X@0I_Y2`5O?`QQ61
+IzkF6IgWZ@C8=S?Hdkgf>m0
+R2
+R8
+S1
+R0
+R9
+R10
+R11
+L0 49
+R3
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 1
+R15
+R6
+vline_drawer
+R1
+Z16 !s110 1572334579
+!i10b 1
+!s100 fk_@[6:DV1]P7DQIPgeMG3
+IZ6E:?H72Q[<^lZIIH[TQB1
+R2
+Z17 !s105 line_drawer_sv_unit
+S1
+R0
+Z18 w1572334550
+Z19 8U:/371/lab3/line_drawer.sv
+Z20 FU:/371/lab3/line_drawer.sv
+L0 7
+R3
+r1
+!s85 0
+31
+Z21 !s108 1572334578.000000
+Z22 !s107 U:/371/lab3/line_drawer.sv|
+Z23 !s90 -reportprogress|300|-sv|-work|work|+incdir+U:/371/lab3|U:/371/lab3/line_drawer.sv|
+!i113 1
+R4
+R5
+R6
+vline_drawer_testbench
+R1
+R16
+!i10b 1
+!s100 F`BZaDbeg?F4[EBEJBUoO2
+Im8KilaflP7zNoMF=4O4_72
+R2
+R17
+S1
+R0
+R18
+R19
+R20
+L0 55
+R3
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R4
+R5
+R6
+vVGA_framebuffer
+R1
+!s110 1572334576
+!i10b 1
+!s100 em3AZ9X[Vj^2Y7e@^DH9K0
+IjOQoiPFRGBK;40]EOeDH_1
+R2
+!s105 VGA_framebuffer_sv_unit
+S1
+R0
+w1539830758
+8U:/371/lab3/VGA_framebuffer.sv
+FU:/371/lab3/VGA_framebuffer.sv
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1572334575.000000
+!s107 U:/371/lab3/VGA_framebuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/371/lab3|U:/371/lab3/VGA_framebuffer.sv|
+!i113 1
+R4
+R5
+R6
+n@v@g@a_framebuffer

@@ -1,0 +1,36 @@
+// Charles Tung Fang
+// EE 371
+// Lab 3 Display Interface, task 1
+// Line_drawer implements Bresenham’s Line Generation Algorithm to draw a line
+// for given x0, y0, x1, y1
+
+module line_drawer(
+	input logic clk, reset,
+	input logic [10:0]	x0, y0, x1, y1, //the end points of the line
+	output logic [10:0]	x, y //outputs corresponding to the pair (x, y)
+	);
+	
+	/*
+	 * You'll need to create some registers to keep track of things
+	 * such as error and direction
+	 * Example: */
+	logic signed [11:0] error;
+	logic signed [10:0] dx, dy; // dx is width and dy is height
+	assign dx = x1 > x0 ? x1 - x0 : x0 - x1;
+	assign dy = y1 > y0 ? y1 - y0 : y0 - y1;
+
+	always_comb begin
+		if (((dx >= dy) && (x0 > x1)) || ((dy > dx) && (y1 > y0))) begin
+			x0 = x1// left = right
+			x1 = x0// right = left
+			y0 = y1// top = bottom
+			y1 = y0// bottom = top
+		end
+	end
+	
+	always_ff @(posedge clk) begin
+	/*
+	 * Your code here
+	 */
+	end     
+endmodule

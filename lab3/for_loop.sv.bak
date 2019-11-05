@@ -1,0 +1,29 @@
+// Charles Tung Fang
+// EE 371
+// Lab 3 Display Interface, task 1
+// For loop takes care of the incrementing vertically or horizontally
+
+module for_loop(
+	input logic clk, reset,
+	input logic [10:0] start, destination, //the end points of the line
+	input logic [10:0] diff,
+    input logic [10:0] error,
+    input logic direction,
+    output logic [10:0]	x, y //outputs corresponding to the pair (x, y)
+	);
+
+    logic [10:0] position;    
+
+    always_ff @(posedge clk && position != destination) begin
+        if (reset) begin
+            position <= start;
+		if (error >= diff) begin
+			error <= error - diff;
+			y <= y + direction;
+		end
+		position <=  position + 1;
+		error <= error + diff;
+		end 
+	end
+
+endmodule

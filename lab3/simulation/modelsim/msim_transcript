@@ -1,0 +1,82 @@
+# Reading C:/intelFPGA/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+U:/371/lab3 {U:/371/lab3/VGA_framebuffer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:36:15 on Oct 29,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/371/lab3" U:/371/lab3/VGA_framebuffer.sv 
+# -- Compiling module VGA_framebuffer
+# 
+# Top level modules:
+# 	VGA_framebuffer
+# End time: 00:36:17 on Oct 29,2019, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/371/lab3 {U:/371/lab3/for_loop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:36:17 on Oct 29,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/371/lab3" U:/371/lab3/for_loop.sv 
+# -- Compiling module for_loop
+# -- Compiling module for_loop_testbench
+# 
+# Top level modules:
+# 	for_loop_testbench
+# End time: 00:36:18 on Oct 29,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/371/lab3 {U:/371/lab3/line_drawer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:36:18 on Oct 29,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/371/lab3" U:/371/lab3/line_drawer.sv 
+# -- Compiling module line_drawer
+# -- Compiling module line_drawer_testbench
+# 
+# Top level modules:
+# 	line_drawer_testbench
+# End time: 00:36:20 on Oct 29,2019, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/371/lab3 {U:/371/lab3/DE1_SoC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:36:20 on Oct 29,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/371/lab3" U:/371/lab3/DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 00:36:21 on Oct 29,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.line_drawer_testbench
+# vsim work.line_drawer_testbench 
+# Start time: 00:36:32 on Oct 29,2019
+# Loading sv_std.std
+# Loading work.line_drawer_testbench
+# Loading work.line_drawer
+# Loading work.for_loop
+add wave -position end sim:/line_drawer_testbench/dut/*
+run -all
+# ** Note: $stop    : U:/371/lab3/line_drawer.sv(78)
+#    Time: 650 ps  Iteration: 1  Instance: /line_drawer_testbench
+# Break in Module line_drawer_testbench at U:/371/lab3/line_drawer.sv line 78
+# WARNING: No extended dataflow license exists
+# Break key hit
+vlog -reportprogress 300 -work work U:/371/lab3/for_loop.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:50:29 on Oct 29,2019
+# vlog -reportprogress 300 -work work U:/371/lab3/for_loop.sv 
+# -- Compiling module for_loop
+# -- Compiling module for_loop_testbench
+# 
+# Top level modules:
+# 	for_loop_testbench
+# End time: 00:50:30 on Oct 29,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 00:50:59 on Oct 29,2019, Elapsed time: 0:14:27
+# Errors: 0, Warnings: 1
