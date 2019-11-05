@@ -1,0 +1,14 @@
+// Charles Tung Fang
+// 2019/10/15
+// EE 371 Lab2 Memory Blocks
+// Task4 implements one port for supplying the address for a read operation, 
+// and a separate port that gives the address for a write operation.
+
+module task4(CLOCK_50, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, KEY, LEDR, SW);
+
+endmodule
+
+module task4_testbench();
+
+endmodule
+

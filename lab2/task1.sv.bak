@@ -1,0 +1,11 @@
+
+module task1(address, clk, data, wren, q);
+	input [4:0] address;
+	input clk;
+	input [3:0] data;
+	input wren;
+	output [3:0] q;
+	
+	ram32x4 t1(address, clk, data, wren, q);
+
+endmodule

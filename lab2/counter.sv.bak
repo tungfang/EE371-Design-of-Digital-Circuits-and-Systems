@@ -1,0 +1,12 @@
+// Charles Tung Fang
+// 2019/10/15
+// EE 371 Lab2 Memory Blocks
+// Counter behaves as a read address and scroll through the memory locations by displaying each word for about one second 
+
+module counter(clk, ); 
+
+endmodule
+
+module counter_testbench();
+
+endmodule

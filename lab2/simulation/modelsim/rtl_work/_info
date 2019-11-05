@@ -1,0 +1,394 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/tungfang/Desktop/lab2/simulation/modelsim
+vcounter
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1571362538
+!i10b 1
+!s100 9[9YVc0J=8<oAH[:Po^lc3
+IYKIVF@^?acFZ1hIkh]>CX1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 counter_sv_unit
+S1
+R0
+Z5 w1571343042
+Z6 8C:/Users/tungfang/Desktop/lab2/counter.sv
+Z7 FC:/Users/tungfang/Desktop/lab2/counter.sv
+L0 6
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1571362538.000000
+Z10 !s107 C:/Users/tungfang/Desktop/lab2/counter.sv|
+Z11 !s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab2/counter.sv|
+!i113 1
+Z12 o-work work
+Z13 tCvgOpt 0
+vcounter_testbench
+R1
+R2
+!i10b 1
+!s100 M[efcmC1zAP4O>BXem^U?2
+IF`EZJ?[00EN0=8bYLMSWf2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 21
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vHEX_display
+R1
+Z14 !s110 1571362534
+!i10b 1
+!s100 68OEA>@_6;S5KdJ9<V=?[2
+IMWQE4X_MzVbCb8WMAXX8_3
+R3
+Z15 !s105 HEX_display_sv_unit
+S1
+R0
+Z16 w1571343191
+Z17 8C:/Users/tungfang/Desktop/lab2/HEX_display.sv
+Z18 FC:/Users/tungfang/Desktop/lab2/HEX_display.sv
+L0 6
+R8
+r1
+!s85 0
+31
+Z19 !s108 1571362534.000000
+Z20 !s107 C:/Users/tungfang/Desktop/lab2/HEX_display.sv|
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab2/HEX_display.sv|
+!i113 1
+R12
+R13
+n@h@e@x_display
+vHEX_display_testbench
+R1
+R14
+!i10b 1
+!s100 MC>5IFR8?D[MfBeOY=1@51
+Ij<IU^haDSklfJh8CI8oAo0
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 33
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R12
+R13
+n@h@e@x_display_testbench
+vmemArray
+R1
+Z22 !s110 1571362536
+!i10b 1
+!s100 lPaQia4WEYX1V`W]=<o>g3
+Ije^dO7X:c:SSKKbJGAJ1z2
+R3
+Z23 !s105 memArray_sv_unit
+S1
+R0
+Z24 w1571284866
+Z25 8C:/Users/tungfang/Desktop/lab2/memArray.sv
+Z26 FC:/Users/tungfang/Desktop/lab2/memArray.sv
+L0 6
+R8
+r1
+!s85 0
+31
+Z27 !s108 1571362536.000000
+Z28 !s107 C:/Users/tungfang/Desktop/lab2/memArray.sv|
+Z29 !s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab2/memArray.sv|
+!i113 1
+R12
+R13
+nmem@array
+vmemArray_testbench
+R1
+R22
+!i10b 1
+!s100 6DVLMlL2[=ToWZA_A?_@N0
+Ij[?elz;3P;2<NEV4i0f^R2
+R3
+R23
+S1
+R0
+R24
+R25
+R26
+L0 23
+R8
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 1
+R12
+R13
+nmem@array_testbench
+vram32x4
+!s110 1571362610
+!i10b 1
+!s100 OkSVE=WLAM`;W@jUjBC]b3
+IBGa:mNb[MaeCO0h:WN@jf3
+R3
+R0
+w1571170502
+8C:/Users/tungfang/Desktop/lab2/ram32x4.v
+FC:/Users/tungfang/Desktop/lab2/ram32x4.v
+Z30 L0 40
+R8
+r1
+!s85 0
+31
+!s108 1571362610.000000
+!s107 C:/Users/tungfang/Desktop/lab2/ram32x4.v|
+!s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab2/ram32x4.v|
+!i113 1
+R12
+R13
+vram32x4_2
+!s110 1571362531
+!i10b 1
+!s100 GYPZbaYhmo?8`1ER3WeYN3
+IC=:Yk?73iZJloWWXJn=Go2
+R3
+R0
+w1571345781
+8C:/Users/tungfang/Desktop/lab2/ram32x4_2.v
+FC:/Users/tungfang/Desktop/lab2/ram32x4_2.v
+R30
+R8
+r1
+!s85 0
+31
+!s108 1571362531.000000
+!s107 C:/Users/tungfang/Desktop/lab2/ram32x4_2.v|
+!s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab2/ram32x4_2.v|
+!i113 1
+R12
+R13
+vtask1
+R1
+Z31 !s110 1571362638
+!i10b 1
+!s100 A13]KkcCk=Y=c8n5lY_5V3
+IR6Yco@54e2LD_gl7^>L1F1
+R3
+Z32 !s105 task1_sv_unit
+S1
+R0
+Z33 w1571178574
+Z34 8C:/Users/tungfang/Desktop/lab2/task1.sv
+Z35 FC:/Users/tungfang/Desktop/lab2/task1.sv
+L0 6
+R8
+r1
+!s85 0
+31
+Z36 !s108 1571362638.000000
+Z37 !s107 C:/Users/tungfang/Desktop/lab2/task1.sv|
+Z38 !s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab2/task1.sv|
+!i113 1
+R12
+R13
+vtask1_testbench
+R1
+R31
+!i10b 1
+!s100 1_60nL5aYQDS:5aLFDU=K2
+IeC9CPS9IU6D2l59gb7WhE3
+R3
+R32
+S1
+R0
+R33
+R34
+R35
+L0 18
+R8
+r1
+!s85 0
+31
+R36
+R37
+R38
+!i113 1
+R12
+R13
+vtask2
+R1
+Z39 !s110 1571362595
+!i10b 1
+!s100 BcBZ9@1@`gW0H6XUY4L=o1
+ISh>_VCaK:U[c<W8X:B;[82
+R3
+Z40 !s105 task2_sv_unit
+S1
+R0
+Z41 w1571362491
+Z42 8C:/Users/tungfang/Desktop/lab2/task2.sv
+Z43 FC:/Users/tungfang/Desktop/lab2/task2.sv
+L0 7
+R8
+r1
+!s85 0
+31
+Z44 !s108 1571362595.000000
+Z45 !s107 C:/Users/tungfang/Desktop/lab2/task2.sv|
+Z46 !s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab2/task2.sv|
+!i113 1
+R12
+R13
+vtask2_testbench
+R1
+R39
+!i10b 1
+!s100 z@A1`JfZ[GROIfQUfFied2
+I9Qn77F;12bI`Dh^BDIfBO2
+R3
+R40
+S1
+R0
+R41
+R42
+R43
+L0 30
+R8
+r1
+!s85 0
+31
+R44
+R45
+R46
+!i113 1
+R12
+R13
+vtask3
+R1
+Z47 !s110 1571362513
+!i10b 1
+!s100 2kVLH`IZ8ESMRh_3hdVoM0
+ICOLMIgFSQ3TSm_X2Sek]21
+R3
+Z48 !s105 task3_sv_unit
+S1
+R0
+Z49 w1571348890
+Z50 8C:/Users/tungfang/Desktop/lab2/task3.sv
+Z51 FC:/Users/tungfang/Desktop/lab2/task3.sv
+L0 6
+R8
+r1
+!s85 0
+31
+Z52 !s108 1571362513.000000
+Z53 !s107 C:/Users/tungfang/Desktop/lab2/task3.sv|
+Z54 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tungfang/Desktop/lab2|C:/Users/tungfang/Desktop/lab2/task3.sv|
+!i113 1
+Z55 o-sv -work work
+Z56 !s92 -sv -work work +incdir+C:/Users/tungfang/Desktop/lab2
+R13
+vtask3_testbench
+R1
+R47
+!i10b 1
+!s100 ]QVFK8b9:Ye>k:aN_`<n=2
+I^[lYiTL=AZ6;cOM;kSYR43
+R3
+R48
+S1
+R0
+R49
+R50
+R51
+L0 27
+R8
+r1
+!s85 0
+31
+R52
+R53
+R54
+!i113 1
+R55
+R56
+R13
+vtask4
+R1
+Z57 !s110 1571362527
+!i10b 1
+!s100 Am6n;FfAMZjGSzZRkHm@53
+If85>]1zzg;Kb51<hQ2]I80
+R3
+Z58 !s105 task4_sv_unit
+S1
+R0
+Z59 w1571360300
+Z60 8C:/Users/tungfang/Desktop/lab2/task4.sv
+Z61 FC:/Users/tungfang/Desktop/lab2/task4.sv
+L0 7
+R8
+r1
+!s85 0
+31
+Z62 !s108 1571362527.000000
+Z63 !s107 C:/Users/tungfang/Desktop/lab2/task4.sv|
+Z64 !s90 -reportprogress|300|-work|work|C:/Users/tungfang/Desktop/lab2/task4.sv|
+!i113 1
+R12
+R13
+vtask4_testbench
+R1
+R57
+!i10b 1
+!s100 iT`?CSc^EmcP82Z_HAo;G0
+INS9_>F3kYj[;E;k]PT@3>0
+R3
+R58
+S1
+R0
+R59
+R60
+R61
+L0 46
+R8
+r1
+!s85 0
+31
+R62
+R63
+R64
+!i113 1
+R12
+R13

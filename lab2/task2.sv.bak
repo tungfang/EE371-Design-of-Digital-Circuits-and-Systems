@@ -1,0 +1,21 @@
+// Charles Tung Fang
+// 
+
+module task2(CLOCK_50, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, KEY, SW);
+	input logic CLOCK_50; // 50MHz clock.
+	output logic [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+	input logic [3:0] KEY; 
+	input logic [9:0] SW;
+	
+	logic [3:0] r_data;
+	
+	ram32x4 t2 (.addr(SW[8:4]), .clock(CLOCK_50), .data(SW[3:0]), .wren(SW[9]), .q(r_data));
+	
+	
+	
+endmodule
+
+
+module task2_testbench();
+
+endmodule

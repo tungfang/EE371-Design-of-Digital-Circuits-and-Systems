@@ -1,0 +1,12 @@
+// Charles Tung Fang
+// 2019/10/15
+// EE 371 Lab2 Memory Blocks
+// memArray stores 32 words with 4 bits per word
+
+module memArray();
+
+endmodule
+
+module memArray_testbench();
+
+endmodule

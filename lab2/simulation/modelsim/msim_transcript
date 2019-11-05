@@ -1,0 +1,243 @@
+# Reading C:/intelFPGA/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/tungfang/Desktop/lab2 {C:/Users/tungfang/Desktop/lab2/HEX_display.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:35:13 on Oct 17,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tungfang/Desktop/lab2" C:/Users/tungfang/Desktop/lab2/HEX_display.sv 
+# -- Compiling module HEX_display
+# -- Compiling module HEX_display_testbench
+# 
+# Top level modules:
+# 	HEX_display_testbench
+# End time: 18:35:13 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tungfang/Desktop/lab2 {C:/Users/tungfang/Desktop/lab2/memArray.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:35:13 on Oct 17,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tungfang/Desktop/lab2" C:/Users/tungfang/Desktop/lab2/memArray.sv 
+# -- Compiling module memArray
+# -- Compiling module memArray_testbench
+# 
+# Top level modules:
+# 	memArray_testbench
+# End time: 18:35:13 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tungfang/Desktop/lab2 {C:/Users/tungfang/Desktop/lab2/task3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:35:13 on Oct 17,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tungfang/Desktop/lab2" C:/Users/tungfang/Desktop/lab2/task3.sv 
+# -- Compiling module task3
+# -- Compiling module task3_testbench
+# 
+# Top level modules:
+# 	task3_testbench
+# End time: 18:35:13 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/task4.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:35:27 on Oct 17,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/task4.sv 
+# -- Compiling module task4
+# -- Compiling module task4_testbench
+# 
+# Top level modules:
+# 	task4_testbench
+# End time: 18:35:27 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/ram32x4_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:35:31 on Oct 17,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/ram32x4_2.v 
+# -- Compiling module ram32x4_2
+# 
+# Top level modules:
+# 	ram32x4_2
+# End time: 18:35:31 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/HEX_display.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:35:34 on Oct 17,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/HEX_display.sv 
+# -- Compiling module HEX_display
+# -- Compiling module HEX_display_testbench
+# 
+# Top level modules:
+# 	HEX_display_testbench
+# End time: 18:35:34 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/memArray.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:35:36 on Oct 17,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/memArray.sv 
+# -- Compiling module memArray
+# -- Compiling module memArray_testbench
+# 
+# Top level modules:
+# 	memArray_testbench
+# End time: 18:35:36 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/counter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:35:38 on Oct 17,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/counter.sv 
+# -- Compiling module counter
+# -- Compiling module counter_testbench
+# 
+# Top level modules:
+# 	counter_testbench
+# End time: 18:35:38 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.task4_testbench -Lf altera_mf_ver
+# vsim -gui -l msim_transcript work.task4_testbench -Lf altera_mf_ver 
+# Start time: 18:35:56 on Oct 17,2019
+# Loading sv_std.std
+# Loading work.task4_testbench
+# Loading work.task4
+# Loading work.counter
+# Loading work.ram32x4_2
+# Loading altera_mf_ver.altsyncram
+# Loading work.HEX_display
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end sim:/task4_testbench/dut/*
+run -all
+# ** Note: $stop    : C:/Users/tungfang/Desktop/lab2/task4.sv(92)
+#    Time: 1350 ps  Iteration: 1  Instance: /task4_testbench
+# Break in Module task4_testbench at C:/Users/tungfang/Desktop/lab2/task4.sv line 92
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/task2.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:36:35 on Oct 17,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_testbench
+# 
+# Top level modules:
+# 	task2_testbench
+# End time: 18:36:35 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.task2_testbench
+# End time: 18:36:41 on Oct 17,2019, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
+# vsim work.task2_testbench 
+# Start time: 18:36:41 on Oct 17,2019
+# Loading sv_std.std
+# Loading work.task2_testbench
+# Loading work.task2
+# ** Error: (vsim-3033) C:/Users/tungfang/Desktop/lab2/task2.sv(17): Instantiation of 'ram32x4' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /task2_testbench/dut File: C:/Users/tungfang/Desktop/lab2/task2.sv
+#         Searched libraries:
+#             C:/Users/tungfang/Desktop/lab2/simulation/modelsim/rtl_work
+# Loading work.HEX_display
+# Error loading design
+# End time: 18:36:42 on Oct 17,2019, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/ram32x4.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:36:50 on Oct 17,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/ram32x4.v 
+# -- Compiling module ram32x4
+# 
+# Top level modules:
+# 	ram32x4
+# End time: 18:36:50 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.task2_testbench
+# vsim work.task2_testbench 
+# Start time: 18:36:52 on Oct 17,2019
+# Loading sv_std.std
+# Loading work.task2_testbench
+# Loading work.task2
+# Loading work.ram32x4
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'task2_testbench' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /task2_testbench/dut/t2 File: C:/Users/tungfang/Desktop/lab2/ram32x4.v
+# ** Error: (vsim-3033) C:/Users/tungfang/Desktop/lab2/ram32x4.v(63): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /task2_testbench/dut/t2 File: C:/Users/tungfang/Desktop/lab2/ram32x4.v
+#         Searched libraries:
+#             C:/Users/tungfang/Desktop/lab2/simulation/modelsim/rtl_work
+# Loading work.HEX_display
+# Error loading design
+# End time: 18:36:52 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/task1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:37:18 on Oct 17,2019
+# vlog -reportprogress 300 -work work C:/Users/tungfang/Desktop/lab2/task1.sv 
+# -- Compiling module task1
+# -- Compiling module task1_testbench
+# 
+# Top level modules:
+# 	task1_testbench
+# End time: 18:37:18 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.task1_testbench
+# vsim work.task1_testbench 
+# Start time: 18:37:20 on Oct 17,2019
+# Loading sv_std.std
+# Loading work.task1_testbench
+# Loading work.task1
+# Loading work.ram32x4
+# ** Error: (vsim-3033) C:/Users/tungfang/Desktop/lab2/ram32x4.v(63): Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /task1_testbench/dut/t1 File: C:/Users/tungfang/Desktop/lab2/ram32x4.v
+#         Searched libraries:
+#             C:/Users/tungfang/Desktop/lab2/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 18:37:20 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.task1_testbench -Lf altera_mf_ver
+# vsim work.task1_testbench -Lf altera_mf_ver 
+# Start time: 18:37:35 on Oct 17,2019
+# Loading sv_std.std
+# Loading work.task1_testbench
+# Loading work.task1
+# Loading work.ram32x4
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end sim:/task1_testbench/dut/*
+run -all
+# ** Note: $stop    : C:/Users/tungfang/Desktop/lab2/task1.sv(44)
+#    Time: 950 ps  Iteration: 1  Instance: /task1_testbench
+# Break in Module task1_testbench at C:/Users/tungfang/Desktop/lab2/task1.sv line 44
+vsim work.task3_testbench
+# End time: 18:42:50 on Oct 17,2019, Elapsed time: 0:05:15
+# Errors: 0, Warnings: 0
+# vsim work.task3_testbench 
+# Start time: 18:42:50 on Oct 17,2019
+# Loading sv_std.std
+# Loading work.task3_testbench
+# Loading work.task3
+# Loading work.memArray
+# Loading work.HEX_display
+add wave -position end sim:/task3_testbench/dut/*
+run -all
+# ** Note: $stop    : C:/Users/tungfang/Desktop/lab2/task3.sv(61)
+#    Time: 1550 ps  Iteration: 1  Instance: /task3_testbench
+# Break in Module task3_testbench at C:/Users/tungfang/Desktop/lab2/task3.sv line 61
+vsim work.memArray_testbench
+# End time: 18:45:37 on Oct 17,2019, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 0
+# vsim work.memArray_testbench 
+# Start time: 18:45:37 on Oct 17,2019
+# Loading sv_std.std
+# Loading work.memArray_testbench
+# Loading work.memArray
+add wave -position end sim:/memArray_testbench/dut/*
+run -all
+# ** Note: $stop    : C:/Users/tungfang/Desktop/lab2/memArray.sv(43)
+#    Time: 450 ps  Iteration: 1  Instance: /memArray_testbench
+# Break in Module memArray_testbench at C:/Users/tungfang/Desktop/lab2/memArray.sv line 43
+# End time: 19:27:57 on Oct 17,2019, Elapsed time: 0:42:20
+# Errors: 0, Warnings: 0
