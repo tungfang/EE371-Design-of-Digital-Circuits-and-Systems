@@ -1,0 +1,244 @@
+# Reading C:/intelFPGA/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do task1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+U:/371/lab4 {U:/371/lab4/task1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:40:02 on Nov 07,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/371/lab4" U:/371/lab4/task1.sv 
+# -- Compiling module task1
+# -- Compiling module task1_testbench
+# 
+# Top level modules:
+# 	task1_testbench
+# End time: 12:40:03 on Nov 07,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/371/lab4 {U:/371/lab4/bit_counting.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:40:03 on Nov 07,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/371/lab4" U:/371/lab4/bit_counting.sv 
+# -- Compiling module bit_counting
+# -- Compiling module bit_counting_testbench
+# 
+# Top level modules:
+# 	bit_counting_testbench
+# End time: 12:40:04 on Nov 07,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/371/lab4 {U:/371/lab4/shift.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:40:04 on Nov 07,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/371/lab4" U:/371/lab4/shift.sv 
+# -- Compiling module shift
+# -- Compiling module shift_testbench
+# 
+# Top level modules:
+# 	shift_testbench
+# End time: 12:40:06 on Nov 07,2019, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/371/lab4 {U:/371/lab4/display.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:40:06 on Nov 07,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/371/lab4" U:/371/lab4/display.sv 
+# -- Compiling module display
+# 
+# Top level modules:
+# 	display
+# End time: 12:40:07 on Nov 07,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.bit_counting_testbench
+# vsim work.bit_counting_testbench 
+# Start time: 12:40:25 on Nov 07,2019
+# Loading sv_std.std
+# Loading work.bit_counting_testbench
+# Loading work.bit_counting
+# Loading work.shift
+add wave -position end sim:/bit_counting_testbench/dut/*
+run -all
+# ** Note: $stop    : U:/371/lab4/bit_counting.sv(100)
+#    Time: 2650 ps  Iteration: 1  Instance: /bit_counting_testbench
+# Break in Module bit_counting_testbench at U:/371/lab4/bit_counting.sv line 100
+# WARNING: No extended dataflow license exists
+vsim work.task1_testbench
+# End time: 12:44:04 on Nov 07,2019, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 1
+# vsim work.task1_testbench 
+# Start time: 12:44:04 on Nov 07,2019
+# Loading sv_std.std
+# Loading work.task1_testbench
+# Loading work.task1
+# Loading work.bit_counting
+# Loading work.shift
+# Loading work.display
+add wave -position end sim:/task1_testbench/dut/*
+run -all
+# ** Note: $stop    : U:/371/lab4/task1.sv(60)
+#    Time: 1350 ps  Iteration: 1  Instance: /task1_testbench
+# Break in Module task1_testbench at U:/371/lab4/task1.sv line 60
+vlog -reportprogress 300 -work work U:/371/lab4/task1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:19 on Nov 07,2019
+# vlog -reportprogress 300 -work work U:/371/lab4/task1.sv 
+# -- Compiling module task1
+# -- Compiling module task1_testbench
+# 
+# Top level modules:
+# 	task1_testbench
+# End time: 12:47:21 on Nov 07,2019, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+vsim work.task1_testbench
+# End time: 12:47:31 on Nov 07,2019, Elapsed time: 0:03:27
+# Errors: 0, Warnings: 0
+# vsim work.task1_testbench 
+# Start time: 12:47:31 on Nov 07,2019
+# Loading sv_std.std
+# Loading work.task1_testbench
+# Loading work.task1
+# Loading work.bit_counting
+# Loading work.shift
+# Loading work.display
+add wave -position end sim:/task1_testbench/dut/*
+run -all
+# ** Note: $stop    : U:/371/lab4/task1.sv(63)
+#    Time: 1350 ps  Iteration: 1  Instance: /task1_testbench
+# Break in Module task1_testbench at U:/371/lab4/task1.sv line 63
+add wave -position end  sim:/task1_testbench/dut/count/ps
+add wave -position end  sim:/task1_testbench/dut/count/ns
+add wave -position end  sim:/task1_testbench/dut/count/clk
+add wave -position end  sim:/task1_testbench/dut/count/reset
+add wave -position end  sim:/task1_testbench/dut/count/A
+add wave -position end  sim:/task1_testbench/dut/count/B
+restart -f
+run -all
+# ** Note: $stop    : U:/371/lab4/task1.sv(63)
+#    Time: 1350 ps  Iteration: 1  Instance: /task1_testbench
+# Break in Module task1_testbench at U:/371/lab4/task1.sv line 63
+vlog -reportprogress 300 -work work U:/371/lab4/task1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:16 on Nov 07,2019
+# vlog -reportprogress 300 -work work U:/371/lab4/task1.sv 
+# -- Compiling module task1
+# -- Compiling module task1_testbench
+# 
+# Top level modules:
+# 	task1_testbench
+# End time: 13:18:17 on Nov 07,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.task1_testbench
+# End time: 13:18:25 on Nov 07,2019, Elapsed time: 0:30:54
+# Errors: 0, Warnings: 0
+# vsim work.task1_testbench 
+# Start time: 13:18:25 on Nov 07,2019
+# Loading sv_std.std
+# Loading work.task1_testbench
+# Loading work.task1
+# Loading work.bit_counting
+# Loading work.shift
+# Loading work.display
+add wave -position end sim:/task1_testbench/dut/*
+run -all
+# ** Note: $stop    : U:/371/lab4/task1.sv(63)
+#    Time: 1350 ps  Iteration: 1  Instance: /task1_testbench
+# Break in Module task1_testbench at U:/371/lab4/task1.sv line 63
+vlog -reportprogress 300 -work work U:/371/lab4/task1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:21:53 on Nov 07,2019
+# vlog -reportprogress 300 -work work U:/371/lab4/task1.sv 
+# -- Compiling module task1
+# -- Compiling module task1_testbench
+# 
+# Top level modules:
+# 	task1_testbench
+# End time: 13:21:55 on Nov 07,2019, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+vsim work.task1_testbench
+# End time: 13:22:01 on Nov 07,2019, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 0
+# vsim work.task1_testbench 
+# Start time: 13:22:01 on Nov 07,2019
+# Loading sv_std.std
+# Loading work.task1_testbench
+# Loading work.task1
+# Loading work.bit_counting
+# Loading work.shift
+# Loading work.display
+add wave -position end sim:/task1_testbench/dut/*
+run -all
+# ** Note: $stop    : U:/371/lab4/task1.sv(78)
+#    Time: 2650 ps  Iteration: 1  Instance: /task1_testbench
+# Break in Module task1_testbench at U:/371/lab4/task1.sv line 78
+vlog -reportprogress 300 -work work U:/371/lab4/display.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:09 on Nov 07,2019
+# vlog -reportprogress 300 -work work U:/371/lab4/display.sv 
+# -- Compiling module display
+# 
+# Top level modules:
+# 	display
+# End time: 13:25:10 on Nov 07,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.task1_testbench
+# End time: 13:25:27 on Nov 07,2019, Elapsed time: 0:03:26
+# Errors: 0, Warnings: 0
+# vsim work.task1_testbench 
+# Start time: 13:25:28 on Nov 07,2019
+# Loading sv_std.std
+# Loading work.task1_testbench
+# Loading work.task1
+# Loading work.bit_counting
+# Loading work.shift
+# Loading work.display
+add wave -position end sim:/task1_testbench/dut/*
+run -all
+# ** Note: $stop    : U:/371/lab4/task1.sv(78)
+#    Time: 2650 ps  Iteration: 1  Instance: /task1_testbench
+# Break in Module task1_testbench at U:/371/lab4/task1.sv line 78
+# WARNING: No extended dataflow license exists
+vsim work.task1_testbench
+# End time: 13:44:33 on Nov 07,2019, Elapsed time: 0:19:05
+# Errors: 0, Warnings: 1
+# vsim work.task1_testbench 
+# Start time: 13:44:33 on Nov 07,2019
+# Loading sv_std.std
+# Loading work.task1_testbench
+# Loading work.task1
+# Loading work.bit_counting
+# Loading work.shift
+# Loading work.display
+vlog -reportprogress 300 -work work U:/371/lab4/task1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:44:39 on Nov 07,2019
+# vlog -reportprogress 300 -work work U:/371/lab4/task1.sv 
+# -- Compiling module task1
+# -- Compiling module task1_testbench
+# 
+# Top level modules:
+# 	task1_testbench
+# End time: 13:44:39 on Nov 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.task1_testbench
+# End time: 13:44:43 on Nov 07,2019, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+# vsim work.task1_testbench 
+# Start time: 13:44:43 on Nov 07,2019
+# Loading sv_std.std
+# Loading work.task1_testbench
+# Loading work.task1
+# Loading work.bit_counting
+# Loading work.shift
+# Loading work.display
+add wave -position end sim:/task1_testbench/dut/*
+run -all
+# ** Note: $stop    : U:/371/lab4/task1.sv(78)
+#    Time: 2650 ps  Iteration: 1  Instance: /task1_testbench
+# Break in Module task1_testbench at U:/371/lab4/task1.sv line 78
+# End time: 14:34:02 on Nov 07,2019, Elapsed time: 0:49:19
+# Errors: 0, Warnings: 0

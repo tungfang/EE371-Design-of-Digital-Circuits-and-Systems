@@ -1,0 +1,182 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/371/lab4/simulation/modelsim
+vbit_counting
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1573159204
+!i10b 1
+!s100 3J^DXF=P5e=k@nKlPoQGb3
+I5=kmgEi6Zo<e7P4T[zkV60
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 bit_counting_sv_unit
+S1
+R0
+Z5 w1573156647
+Z6 8U:/371/lab4/bit_counting.sv
+Z7 FU:/371/lab4/bit_counting.sv
+L0 5
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1573159203.000000
+Z10 !s107 U:/371/lab4/bit_counting.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+U:/371/lab4|U:/371/lab4/bit_counting.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+U:/371/lab4
+Z14 tCvgOpt 0
+vbit_counting_testbench
+R1
+R2
+!i10b 1
+!s100 ^4VljHo9kP?g<;2WcoiWU3
+Iz;[fU3QmPMo2^PaAjCX3m1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 56
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vdisplay
+R1
+!s110 1573161909
+!i10b 1
+!s100 =giQ>F@T;]Q@@9;O2Uf@b3
+I`cCj[4bLCo[1Rj73gl0O83
+R3
+!s105 display_sv_unit
+S1
+R0
+w1573160344
+8U:/371/lab4/display.sv
+FU:/371/lab4/display.sv
+L0 4
+R8
+r1
+!s85 0
+31
+!s108 1573161909.000000
+!s107 U:/371/lab4/display.sv|
+!s90 -reportprogress|300|-work|work|U:/371/lab4/display.sv|
+!i113 1
+Z15 o-work work
+R14
+vshift
+R1
+Z16 !s110 1573159205
+!i10b 1
+!s100 c9le3P<`_@b@E1IZ[ng181
+I[S`<9V4n;YJ>mQVBQPhD:1
+R3
+Z17 !s105 shift_sv_unit
+S1
+R0
+Z18 w1573151622
+Z19 8U:/371/lab4/shift.sv
+Z20 FU:/371/lab4/shift.sv
+L0 5
+R8
+r1
+!s85 0
+31
+Z21 !s108 1573159204.000000
+Z22 !s107 U:/371/lab4/shift.sv|
+Z23 !s90 -reportprogress|300|-sv|-work|work|+incdir+U:/371/lab4|U:/371/lab4/shift.sv|
+!i113 1
+R12
+R13
+R14
+vshift_testbench
+R1
+R16
+!i10b 1
+!s100 <F>GSmIiIWfFXRZSR>A?]3
+Io=c_`F9HchkR`9X@3XM>12
+R3
+R17
+S1
+R0
+R18
+R19
+R20
+L0 25
+R8
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R12
+R13
+R14
+vtask1
+R1
+Z24 !s110 1573163079
+!i10b 1
+!s100 >N;KVcMeDn06H?mR;W=QE1
+IFa[I[9SLKSV:CMzZP6mi;3
+R3
+Z25 !s105 task1_sv_unit
+S1
+R0
+Z26 w1573163062
+Z27 8U:/371/lab4/task1.sv
+Z28 FU:/371/lab4/task1.sv
+L0 6
+R8
+r1
+!s85 0
+31
+Z29 !s108 1573163079.000000
+Z30 !s107 U:/371/lab4/task1.sv|
+Z31 !s90 -reportprogress|300|-work|work|U:/371/lab4/task1.sv|
+!i113 1
+R15
+R14
+vtask1_testbench
+R1
+R24
+!i10b 1
+!s100 :]0ln`;V2`CHWR7o83MUU1
+I9lEiS]F^Fj@C^90M[F:3>2
+R3
+R25
+S1
+R0
+R26
+R27
+R28
+L0 31
+R8
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 1
+R15
+R14

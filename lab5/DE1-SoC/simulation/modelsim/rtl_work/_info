@@ -1,0 +1,282 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/starterkit/DE1-SoC/simulation/modelsim
+vAltera_UP_Audio_Bit_Counter
+!s110 1573875960
+!i10b 1
+!s100 J2Tb5SPZN>>^6S@MM9o:c1
+IH:8Vh3]8KcBok^?9gRa;V3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z2 w1481771340
+8U:/starterkit/DE1-SoC/altera_up_audio_bit_counter.v
+FU:/starterkit/DE1-SoC/altera_up_audio_bit_counter.v
+Z3 L0 49
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1573875959.000000
+!s107 U:/starterkit/DE1-SoC/altera_up_audio_bit_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/starterkit/DE1-SoC|U:/starterkit/DE1-SoC/altera_up_audio_bit_counter.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+U:/starterkit/DE1-SoC
+Z7 tCvgOpt 0
+n@altera_@u@p_@audio_@bit_@counter
+vAltera_UP_Audio_In_Deserializer
+!s110 1573875959
+!i10b 1
+!s100 MnK8@IQLcda;1gGBW7@Tz0
+I0_;DmDIZ954d>kUYEm0UK3
+R1
+R0
+R2
+8U:/starterkit/DE1-SoC/altera_up_audio_in_deserializer.v
+FU:/starterkit/DE1-SoC/altera_up_audio_in_deserializer.v
+Z8 L0 47
+R4
+r1
+!s85 0
+31
+!s108 1573875958.000000
+!s107 U:/starterkit/DE1-SoC/altera_up_audio_in_deserializer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/starterkit/DE1-SoC|U:/starterkit/DE1-SoC/altera_up_audio_in_deserializer.v|
+!i113 1
+R5
+R6
+R7
+n@altera_@u@p_@audio_@in_@deserializer
+vAltera_UP_Audio_Out_Serializer
+!s110 1573875962
+!i10b 1
+!s100 BllhdjOFFm6Rj]o@Xid882
+I]NTLXal<MKi>]PF6]?1Og1
+R1
+R0
+R2
+8U:/starterkit/DE1-SoC/altera_up_audio_out_serializer.v
+FU:/starterkit/DE1-SoC/altera_up_audio_out_serializer.v
+R8
+R4
+r1
+!s85 0
+31
+!s108 1573875961.000000
+!s107 U:/starterkit/DE1-SoC/altera_up_audio_out_serializer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/starterkit/DE1-SoC|U:/starterkit/DE1-SoC/altera_up_audio_out_serializer.v|
+!i113 1
+R5
+R6
+R7
+n@altera_@u@p_@audio_@out_@serializer
+vAltera_UP_Clock_Edge
+!s110 1573875957
+!i10b 1
+!s100 XaX6^HY04T3X?D32?HdN>2
+I?CgoG<BnZ;Q2ZNTj[2zAf0
+R1
+R0
+R2
+8U:/starterkit/DE1-SoC/altera_up_clock_edge.v
+FU:/starterkit/DE1-SoC/altera_up_clock_edge.v
+Z9 L0 48
+R4
+r1
+!s85 0
+31
+!s108 1573875956.000000
+!s107 U:/starterkit/DE1-SoC/altera_up_clock_edge.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/starterkit/DE1-SoC|U:/starterkit/DE1-SoC/altera_up_clock_edge.v|
+!i113 1
+R5
+R6
+R7
+n@altera_@u@p_@clock_@edge
+vAltera_UP_I2C
+!s110 1573875955
+!i10b 1
+!s100 JU94J3RToJ0DChmlIi^B43
+I77`KcCC9Q7m[JE8i5Y;W>0
+R1
+R0
+R2
+8U:/starterkit/DE1-SoC/altera_up_i2c.v
+FU:/starterkit/DE1-SoC/altera_up_i2c.v
+R9
+R4
+r1
+!s85 0
+31
+!s108 1573875954.000000
+!s107 U:/starterkit/DE1-SoC/altera_up_i2c.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/starterkit/DE1-SoC|U:/starterkit/DE1-SoC/altera_up_i2c.v|
+!i113 1
+R5
+R6
+R7
+n@altera_@u@p_@i2@c
+vAltera_UP_I2C_AV_Auto_Initialize
+!s110 1573875954
+!i10b 1
+!s100 TbIA;9787GSRoV9be_N2^2
+I^<bWJ?P?]@lL2>Qgn<cVV0
+R1
+R0
+R2
+8U:/starterkit/DE1-SoC/altera_up_i2c_av_auto_initialize.v
+FU:/starterkit/DE1-SoC/altera_up_i2c_av_auto_initialize.v
+R9
+R4
+r1
+!s85 0
+31
+!s108 1573875953.000000
+!s107 U:/starterkit/DE1-SoC/altera_up_i2c_av_auto_initialize.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/starterkit/DE1-SoC|U:/starterkit/DE1-SoC/altera_up_i2c_av_auto_initialize.v|
+!i113 1
+R5
+R6
+R7
+n@altera_@u@p_@i2@c_@a@v_@auto_@initialize
+vAltera_UP_Slow_Clock_Generator
+!s110 1573875953
+!i10b 1
+!s100 U@B3NehPQRXcdeI<e=@I53
+IS6>MLHNfmC49?l02aLZZE3
+R1
+R0
+R2
+8U:/starterkit/DE1-SoC/altera_up_slow_clock_generator.v
+FU:/starterkit/DE1-SoC/altera_up_slow_clock_generator.v
+L0 53
+R4
+r1
+!s85 0
+31
+!s108 1573875952.000000
+!s107 U:/starterkit/DE1-SoC/altera_up_slow_clock_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/starterkit/DE1-SoC|U:/starterkit/DE1-SoC/altera_up_slow_clock_generator.v|
+!i113 1
+R5
+R6
+R7
+n@altera_@u@p_@slow_@clock_@generator
+vAltera_UP_SYNC_FIFO
+!s110 1573875961
+!i10b 1
+!s100 jDg=^5VOBFbFho_;gZbiA1
+IYLkMnWko2egENA`RA5FG;3
+R1
+R0
+R2
+8U:/starterkit/DE1-SoC/altera_up_sync_fifo.v
+FU:/starterkit/DE1-SoC/altera_up_sync_fifo.v
+R8
+R4
+r1
+!s85 0
+31
+!s108 1573875960.000000
+!s107 U:/starterkit/DE1-SoC/altera_up_sync_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/starterkit/DE1-SoC|U:/starterkit/DE1-SoC/altera_up_sync_fifo.v|
+!i113 1
+R5
+R6
+R7
+n@altera_@u@p_@s@y@n@c_@f@i@f@o
+vaudio_and_video_config
+!s110 1573875952
+!i10b 1
+!s100 z3>_mDg4hMjn4VjXHn00U3
+IFmQDU7@6gg`za?YFIjB[Q2
+R1
+R0
+R2
+8U:/starterkit/DE1-SoC/audio_and_video_config.v
+FU:/starterkit/DE1-SoC/audio_and_video_config.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1573875951.000000
+!s107 U:/starterkit/DE1-SoC/audio_and_video_config.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/starterkit/DE1-SoC|U:/starterkit/DE1-SoC/audio_and_video_config.v|
+!i113 1
+R5
+R6
+R7
+vaudio_codec
+!s110 1573875956
+!i10b 1
+!s100 43h1ad@K@aG98IRVc4i1M1
+IDkACYRPgKCXClnc4djG@D2
+R1
+R0
+R2
+8U:/starterkit/DE1-SoC/audio_codec.v
+FU:/starterkit/DE1-SoC/audio_codec.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1573875955.000000
+!s107 U:/starterkit/DE1-SoC/audio_codec.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/starterkit/DE1-SoC|U:/starterkit/DE1-SoC/audio_codec.v|
+!i113 1
+R5
+R6
+R7
+vclock_generator
+!s110 1573875950
+!i10b 1
+!s100 39OA<gKn`aijkLgT:8]8i2
+I2aJZMn<D1f[1iX2Qo`JRC2
+R1
+R0
+R2
+8U:/starterkit/DE1-SoC/clock_generator.v
+FU:/starterkit/DE1-SoC/clock_generator.v
+R9
+R4
+r1
+!s85 0
+31
+!s108 1573875950.000000
+!s107 U:/starterkit/DE1-SoC/clock_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/starterkit/DE1-SoC|U:/starterkit/DE1-SoC/clock_generator.v|
+!i113 1
+R5
+R6
+R7
+vpart1
+!s110 1573875949
+!i10b 1
+!s100 <lc8AfMcA<ZY4ieo>zfc@2
+ISHC<7C7EX:R8g2A[Z9I8i2
+R1
+R0
+w1573872032
+8U:/starterkit/DE1-SoC/part1.v
+FU:/starterkit/DE1-SoC/part1.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1573875948.000000
+!s107 U:/starterkit/DE1-SoC/part1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+U:/starterkit/DE1-SoC|U:/starterkit/DE1-SoC/part1.v|
+!i113 1
+R5
+R6
+R7

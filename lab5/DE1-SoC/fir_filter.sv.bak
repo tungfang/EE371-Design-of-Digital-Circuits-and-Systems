@@ -1,0 +1,23 @@
+module fir_filter #(parameter N = 8)(clk, reset, enable, Din, Dout);
+    input logic clk, reset, enable;
+    input logic signed [23:0] Din;
+    output logic signed [23:0] Dout;
+
+    logic signed [23:0] factored_in, factored_out;
+
+    logic [5:0] data_width = 24;
+    logic [6:0] data_depth = N;
+    logic [2:0] addr_width = $clog2(N);
+
+    logic wr_en, rd_en, fifo_empty, fifo_full, 
+
+    assign factored_in = Din / 24;
+
+    logic [addr_width - 1 : 0] words_used;
+
+
+    Alter_UP_SYNC_FIFO #(.DATA_WIDTH = data_width, .DATA_DEPTH = data_depth, .ADDR_WIDTH = addr_width)
+        fifo(.clk(clk), .reset(reset), .write_en(enable), .write_data(factored_in), .read_en(enable), 
+        .fifo_is_empty(fifo_empty), .fifo_is_full(fifo_full), .words_used(words_used), .read_data(factored_out));
+    
+endmodule

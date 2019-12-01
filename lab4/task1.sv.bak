@@ -1,0 +1,5 @@
+// Bobin Shih & Charles Tung Fang
+// 11/6/2019
+// Task 1 is the main module for the bit-counting circuit
+// It counts the number of bits set to 1 in an n-bit input A
+

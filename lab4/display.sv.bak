@@ -1,0 +1,22 @@
+// Bobin Shih & Charles Tung Fang
+// 11/6/2019
+// display module shows the number of 1 in the input data
+module display(count, decimal);
+	input logic [3:0] count;
+	output logic [6:0] decimal;
+	
+	always_comb begin
+		case(count) 
+			3'b000: decimal = 7'b1000000;
+			3'b001: decimal = 7'b1111001;
+			3'b010: decimal = 7'b0100100;
+			3'b011: decimal = 7'b0110000;
+			3'b100: decimal = 7'b0011001;
+			3'b101: decimal = 7'b0010010;
+			3'b110: decimal = 7'b0000010;
+			3'b111: decimal = 7'b1111000;
+			default decimal = 7'b1000000;
+		endcase
+	end
+endmodule 
+	

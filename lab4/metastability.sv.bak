@@ -1,0 +1,20 @@
+module metastability(clk, Reset, in, out);
+	
+	input logic clk, Reset, in;
+	output logic out;
+	logic temp;
+
+	
+	always_ff @(posedge clk) begin
+		if (Reset) begin
+			temp <= 0;
+			out <= 0;
+		end
+		else begin
+			temp <= in;
+			out <= temp;
+		end
+	end
+	
+	
+endmodule

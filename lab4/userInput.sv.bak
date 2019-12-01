@@ -1,0 +1,9 @@
+
+module userInput(Clock, Reset, L, R, outL, outR);
+	input logic Clock, Reset, L, R;
+	output logic outL, outR;
+	
+	keyPress left (.Clock, .Reset, .key(L), .out(outL));
+	keyPress right (.Clock, .Reset, .key(R), .out(outR));
+	
+endmodule

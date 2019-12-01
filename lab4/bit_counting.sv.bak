@@ -1,0 +1,36 @@
+// Bobin Shih & Charles Tung Fang
+// 11/6/2019
+// Bit_counting counts the number of bits set to 1 in an n-bit input A
+
+module bit_counting(clk, reset, start, loadA, data, result, done);
+    input logic clk, reset, start;
+    input logic [7:0] loadA, data;
+    output logic [7:0] result;
+    output logic done;
+    
+    enum bit {s1, s2, s3} ps, ns;
+
+    // change of states base on start and load A
+    always_comb
+        case(ps)
+            s1: if (start) ns = s2;
+                else ns = s1;
+            s2: if (loadA == 0) ns = s3;
+                else ns = s2;
+            s3: if (start) ns = s3;
+                else ns = s1;
+        endcase
+            
+    always_ff @(posedge clk)
+        if (reset)
+            ps <= s1;
+        else
+            ps <= ns;
+
+    
+
+endmodule
+
+module bit_counting_testbench();
+
+endmodule

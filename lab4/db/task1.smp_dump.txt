@@ -1,0 +1,6 @@
+
+State Machine - |task1|bit_counting:count|ps
+Name ps.s1 ps.s3 ps.s2 
+ps.s1 0 0 0 
+ps.s2 1 0 1 
+ps.s3 1 1 0 

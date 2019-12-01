@@ -1,0 +1,73 @@
+module fir_filter #(parameter N = 8, data_width = 24, data_depth = 2**3-1, addr_width = 3)
+	(clk, reset, enable, in, out);
+    input logic clk, reset, enable;
+    input logic signed [data_width - 1:0] in;
+    output logic signed [data_width - 1:0] out;
+
+    logic signed [data_width - 1:0] write_data, read_data, acc_out;
+    
+    logic wr_en, rd_en, fifo_empty, fifo_full, en;
+
+    assign factored_in = Din / 24;
+
+    logic [addr_width - 1 : 0] words_used;
+    logic [addr_width : 0] count;
+
+
+    Alter_UP_SYNC_FIFO #(.DATA_WIDTH(data_width), .DATA_DEPTH(data_depth), .ADDR_WIDTH(addr_width))
+        fifo(.clk(clk), .reset(reset), .write_en(wr_en), .write_data(write_data), .read_en(rd_en), 
+        .fifo_is_empty(fifo_empty), .fifo_is_full(fifo_full), .words_used(words_used), .read_data(read_data));
+    
+    enum{Setup,  Normal} ps, ns;
+
+    always_comb begin
+        case(ps)
+            Setup: begin
+                if(count == DATA_DEPTH - 2)
+                    ns = Normal;
+                else
+                    ns = Setup;
+                end
+            normal: ns = Normal;
+            default: ns = setup;
+        endcase    
+    end
+    
+    always_ff @(posedge clk) begin 
+        if (ps == Setup) begin
+            if (reset)
+                count <= '0;
+            else 
+                count <= count + {{ADDR_WIDTH){1'b0}}, 1'd1};
+            acc_out <= '0;
+        end else begin
+            if (read_ready & write_ready)
+                acc_out <= out;
+        end
+    end
+
+    always_ff @(posedge clk) begin
+        if (reset)   
+            ps <= Setup;
+        else 
+            ps <= ns;
+    end
+
+    always_comb begin  
+        if (ps == Setup) begin  
+            write = 1'b1;
+            read = 1'b0;
+            write_data = '0;
+            out = '0;
+        end
+        else begin 
+            write = write_ready & read_ready;
+            read = write_ready & read_ready;
+            write_data = in >>> ADDR_WIDTH;
+            out = write_data - read_data + acc_out;
+        end
+    end
+
+
+
+endmodule
