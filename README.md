@@ -14,7 +14,9 @@ Learned how to display images. I used the DE1-SoC Computer’s video-out port to
 ## Lab 4:
 Implementing Algorithms in Hardware
 Part 1: Implemented the bit-counting circuit using the ASM chart shown in Figure:
-![ASMD]()
+![ASMD](https://github.com/tungfang/EE371/blob/master/lab_pic/asmd.PNG)
 Part 2: Implemented a binary search algorithm, which searches through an array to locate an 8-bit value Aspecified via switches SW7−0
 
 ## Lab 5: 
+Digital Signal Processing
+This is an exercise in using the audio coder/decoder (CODEC) on the DE1-SoC board. The lab involves connecting a microphone to the audio CODEC to provide input sound, altering the received sound by filtering out noise, and then playing the resulting sound through speakers/headphones. 
